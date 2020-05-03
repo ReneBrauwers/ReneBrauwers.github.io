@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+René is a professional with a strong focus on the Microsoft Integration Stack, including products and services such a; BizTalk Server 2016 - 2020,
+Azure Integration Services (Logic Apps, Service Bus, Event Grid, API Management, Azure Functions, Azure Data Factory,  IOT Hub and more.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### brief professional history
+I started my IT career as a web developer/designer and designing and creating websites using classic ASP. Soon, my focus got more 
+drawn towards developing client/server applications using a 3GL language called Centura/Gupta Team Developer.
 
-What else do you need?
+Around the end of 2002, I got involved in the integration space, starting off with WebMethods and did this for the next three years with an occasional 
+side step to .NET development. This occasional side step got him in touch with BizTalk Server in 2005 and, since then, he has been involved with most of 
+the integration offerings Microsoft offers both in the Cloud (Microsoft Azure) as on premise.
 
-### my history
+Currently he is employed as a Principal Consultant at [Insight[(https://www.insight.com) in Sydney, Australia.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
