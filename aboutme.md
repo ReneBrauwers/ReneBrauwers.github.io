@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-René is a professional with a strong focus on the Microsoft Integration Stack, including products and services such a; BizTalk Server 2016 - 2020,
+Rene is a professional with a strong focus on the Microsoft Integration Stack, including products and services such a; BizTalk Server 2016 - 2020,
 Azure Integration Services (Logic Apps, Service Bus, Event Grid, API Management, Azure Functions, Azure Data Factory,  IOT Hub and more.
 
 ### brief professional history
