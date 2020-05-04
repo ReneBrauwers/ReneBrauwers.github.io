@@ -32,7 +32,7 @@ In order to help you all with deciding wither to (pre)order or not to (pre)order
 
 &nbsp;
 
-<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image_thumb.png" width="193" height="244" border="0" /></a>
+<a href="https://brauwers-nl.azureedge.net/images/blog/2011/09/image.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2011/09/image_thumb.png" width="193" height="244" border="0" /></a>
 
 &nbsp;
 <blockquote>You might be thinking: “Why is he shamelessly promoting a book?”</blockquote>
@@ -48,4 +48,4 @@ Well my former colleague <a href="http://soa-thoughts.blogspot.com/" target="_bl
 
 Anyway you can (pre)order the book now! It is currently available for (pre)order at either <a href="http://www.packtpub.com/biztalk-server-2010-patterns/book" target="_blank" rel="noopener noreferrer">PACKT publishing</a> or <a href="http://www.amazon.com/BizTalk-Server-2010-Patterns-Rosanova/dp/product-description/184968460X/ref=dp_imagepop_readmore_b?ie=UTF8&amp;n=283155&amp;s=books" target="_blank" rel="noopener noreferrer">Amazon</a>
 
-<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image1.png"><img style="background-image: none; margin: 5px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image_thumb1.png" width="363" height="476" border="0" /></a>
+<a href="https://brauwers-nl.azureedge.net/images/blog/2011/09/image1.png"><img style="background-image: none; margin: 5px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2011/09/image_thumb1.png" width="363" height="476" border="0" /></a>

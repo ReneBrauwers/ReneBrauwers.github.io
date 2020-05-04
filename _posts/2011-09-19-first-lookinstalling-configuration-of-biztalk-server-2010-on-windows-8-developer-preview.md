@@ -37,7 +37,7 @@ Environment
 
 &nbsp;
 
-<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image2.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image_thumb2.png" width="244" height="116" border="0" /></a>
+<a href="https://brauwers-nl.azureedge.net/images/blog/2011/09/image2.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2011/09/image_thumb2.png" width="244" height="116" border="0" /></a>
 Encountered Issues while installing
 Well to be perfectly honest the only issue I encountered during installation of BizTalk Server 2010 was the fact that I got about 10+ windows update screens which all prompted me to go and install the .Net Framework 3.5.1 Features; well I closed all the windows except for one and let windows update continue.
 
@@ -88,19 +88,19 @@ Screenshots:
 
 BizTalk Administrator ‘Pinned’ to Metro
 
-<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image3.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image_thumb3.png" width="244" height="199" border="0" /></a>
+<a href="https://brauwers-nl.azureedge.net/images/blog/2011/09/image3.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2011/09/image_thumb3.png" width="244" height="199" border="0" /></a>
 
 &nbsp;
 
 BizTalk Server Configuration
 
-<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image4.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image_thumb4.png" width="244" height="199" border="0" /></a>
+<a href="https://brauwers-nl.azureedge.net/images/blog/2011/09/image4.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2011/09/image_thumb4.png" width="244" height="199" border="0" /></a>
 
 &nbsp;
 
 BizTalk Administrator Console
 
-<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image5.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/09/image_thumb5.png" width="244" height="199" border="0" /></a>
+<a href="https://brauwers-nl.azureedge.net/images/blog/2011/09/image5.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2011/09/image_thumb5.png" width="244" height="199" border="0" /></a>
 
 &nbsp;
 

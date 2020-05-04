@@ -20,7 +20,7 @@ categories:
   - BizTalk
 ---
 <h1>First of all…</h1>
-<p>…a belated Happy New Year! I know it has been quiet on this blog for quiet some time, but I’ll clear this up in the near future once things are certain for a 100% <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Winking smile" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/wlEmoticon-winkingsmile.png"></p>
+<p>…a belated Happy New Year! I know it has been quiet on this blog for quiet some time, but I’ll clear this up in the near future once things are certain for a 100% <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Winking smile" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/wlEmoticon-winkingsmile.png"></p>
 <h1>&nbsp;</h1>
 <h1>Well let’s get to it.</h1>
 <p>Recently a colleague of mine, André&nbsp; Ruiter <a href="https://twitter.com/andreruiter67" target="_blank" rel="noopener noreferrer">@AndreRuiter67</a> , asked my view on a particular challenge involving flatfiles. This challenge in short consisted of:</p>
@@ -28,7 +28,7 @@ categories:
 <p>&nbsp;</p>
 <p>My response was, as most of my response, as I enjoy using OOB functionality (thus no code): use a flatfile disassembler in a custom receive pipeline add a map on the receive port in which the inbound file is being transformed to an internal format. Within this internal document ensure to promote the field(s) one wants to group on (correlate). Then use an orchestration which subscribes to the internal message(s) and implement the sequential convoying pattern and aggregate the results to an output format and lastly store the end result to disk.</p>
 <p>&nbsp;</p>
-<p>As you’ve been reading the above you might go like; do what? So for the readers convenience I will walk through an example and explain the required steps. In case it makes sense, well you now know how to implement it, so go ahead move on… Nothing to see anymore <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Winking smile" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/wlEmoticon-winkingsmile.png"></p>
+<p>As you’ve been reading the above you might go like; do what? So for the readers convenience I will walk through an example and explain the required steps. In case it makes sense, well you now know how to implement it, so go ahead move on… Nothing to see anymore <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Winking smile" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/wlEmoticon-winkingsmile.png"></p>
 <p>&nbsp;</p>
 <h1>Walkthrough</h1>
 <p>Before we start, I assume you have at least a basic understanding of BizTalk, as such I will not explain all things, although I will have a step by step instruction relating to the flat file generation as well as the sequential convoy. Having said this you ought to be able to follow all steps and reproduce the steps involved all by yourself and in case that doesn’t work out for you, I’ve added the source which you can download <a href="http://bit.ly/1AN6arB" target="_blank" rel="noopener noreferrer">here</a>. </p>
@@ -90,99 +90,99 @@ http://www.CodeHighlighter.com/
 <h3>Step 1</h3>
 <p>In the solution explorer of Visual Studio, select your BizTalk Project and add a new item <strong>[ Right Click -&gt; Add -&gt; New Item -&gt; Flat File Schema Wizard ] </strong>and add a descriptive name for the flatfile schema header you are about to create and click on the <strong>[ Add button ]</strong></p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb.png" width="641" height="444"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb.png" width="641" height="444"></a></p>
 <p>&nbsp;</p>
 <h3>Step 2</h3>
 <p>The BizTalk Flat File Wizard will appear. Now press the <strong>[ Next button]</strong> untill you see <strong>[ Flat File Information Screen ]</strong>. On this screen, <strong>[ browse ]</strong> to the csv file in question. Enter a name for the record in the <strong>[ Record Name ]</strong> input field. Leave the other options in tact and press the <strong>[ Next button ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image1.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb1.png" width="639" height="503"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image1.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb1.png" width="639" height="503"></a></p>
 <p>&nbsp;</p>
 <h3>Step 3</h3>
 <p>You should now be on the <strong>[ Select Document Screen ]</strong>. On this screen, select the header&nbsp; <strong>[ The first line ] </strong>and press the <strong>[ Next button ]</strong>.</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image2.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb2.png" width="647" height="511"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image2.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb2.png" width="647" height="511"></a></p>
 <p>&nbsp;</p>
 <h3>Step 4</h3>
 <p>At this point you should be on the <strong>[ Select Record Format Screen ]</strong>. On this screen, ensure you select that the record is being by means of a <strong>[ Delimiter Symbol ]</strong>. Once you’ve selected this item press the <strong>[ Next button ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image3.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb3.png" width="650" height="516"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image3.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb3.png" width="650" height="516"></a></p>
 <p>&nbsp;</p>
 <h3>Step 5</h3>
 <p>The next screen which pops up allows you the select the <strong>[ Child Delimiter ]</strong> ensure that for you select the <strong>[ {CR/LF} ]</strong> option. Now press the <strong>[ Next Button ]</strong></p>
 <p><strong><font color="#333333"></font></strong>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image4.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb4.png" width="652" height="515"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image4.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb4.png" width="652" height="515"></a></p>
 <p>&nbsp;</p>
 <h3>Step 6</h3>
 <p>Now you will be presented with the <strong>[ Child Elements ]</strong> screen. On this screen ensure that you change the <strong>[ Element Type ]</strong> from <strong>[ Field Element ]</strong> to <strong>[ Record ]</strong>. Once done press the <strong>[ Next Button ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image5.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb5.png" width="656" height="518"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image5.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb5.png" width="656" height="518"></a></p>
 <p>&nbsp;</p>
 <h3>Step 7</h3>
 <p>So far all we have done is defined our record definition, the next few steps will define our header elements (our columns if you prefer). The screen which you will be presented with at this stage is the start of this process.&nbsp; In order to start press the <strong>[ Next Button ]</strong></p>
 <p><strong><font color="#333333"></font></strong>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image6.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb6.png" width="658" height="519"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image6.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb6.png" width="658" height="519"></a></p>
 <p>&nbsp;</p>
 <h3>Step 8</h3>
 <p>The sceen <strong>[ Select Document Data ]</strong> allows you to select the actual data (headers elements). If you followed up on all the steps so far it would suffice to select the <strong>[ Next Button ]</strong>. In case you’re not sure ensure that you only have selected the actual data excluding the <u><strong>[ New line characters ]</strong>.</u></p>
 <p><u></u>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image7.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb7.png" width="658" height="519"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image7.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb7.png" width="658" height="519"></a></p>
 <p><font color="#333333"></font>&nbsp;</p>
 <h3>Step 9</h3>
 <p>Once again you will be presented with the <strong> [ Select Record Format Screen ]</strong>. On this screen, ensure you select that the record is being by means of a <strong>[ Delimiter Symbol ]</strong>. Once you’ve selected this item press the <strong>[ Next button ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image8.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb8.png" width="662" height="522"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image8.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb8.png" width="662" height="522"></a></p>
 <p>&nbsp;</p>
 <h3>Step 10</h3>
 <p>The next screen which pops up allows you the select the <strong>[ Child Delimiter ]</strong> ensure that for you select the <strong>[ , ] (Comma)</strong> option. Now press the <strong>[ Next Button ]</strong></p>
 <p><strong><font color="#333333"></font></strong>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image9.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb9.png" width="664" height="524"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image9.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb9.png" width="664" height="524"></a></p>
 <p>&nbsp;</p>
 <h3>Step 11</h3>
 <p>You will now be presented with the <strong>[&nbsp; Childs Elements ]</strong> screen which actually allows us to define the columns of the header. In our example we will make a few modification relating to the <strong>[ Element Name ]</strong> we will not change the <strong>[ Data Type</strong> <strong>] </strong>as we are defining our header section and we are currently only defining the header (column) names. For brevity see the screenshot below which depicts all changes I’ve made. Once you have made the changes press the <strong>[ Next Button ]</strong></p>
 <p>&nbsp;</p>
 <h6>Before changes</h6>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image10.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb10.png" width="672" height="530"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image10.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb10.png" width="672" height="530"></a></p>
 <p>&nbsp;</p>
 <h6>After changes</h6>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image11.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb11.png" width="676" height="533"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image11.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb11.png" width="676" height="533"></a></p>
 <p>&nbsp;</p>
 <h3>Step 12</h3>
 <p>Congratulations at this point you have created your header structure, the end result should look similar to the image as depicted below. (note I’ve selected the Flat File tab, to display the non-xsd view)</p>
 <p>&nbsp;</p>
-<p>&lt;a href=&quot;http://blog <a href="http://biturlz.com/Cr4uy3i">les pilules de viagra</a>.brauwers.nl/wp-content/uploads/2015/01/image12.png"&gt;<img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb12.png" width="684" height="565"></a></p>
+<p>&lt;a href=&quot;http://blog <a href="http://biturlz.com/Cr4uy3i">les pilules de viagra</a>.brauwers.nl/wp-content/uploads/2015/01/image12.png"&gt;<img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb12.png" width="684" height="565"></a></p>
 <p>&nbsp;</p>
 <h2>Create the to use schemas [Flat file non header data]</h2>
-<p>Now that we have defined our xml representation of our flat file header is time to define an xml representation of the <em>non header data</em>. For this we will once again use the BizTalk Flat File Wizard. The steps 1 to 13 we went thought earlier will have to repeated with a few <strong>[ Changes in Configuration</strong>&nbsp;<strong>]</strong>. As such I will only list those steps which are different. Yeah you are allowed to call me lazy <img class="wlEmoticon wlEmoticon-smilewithtongueout" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Smile with tongue out" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/wlEmoticon-smilewithtongueout.png">&nbsp;</p>
+<p>Now that we have defined our xml representation of our flat file header is time to define an xml representation of the <em>non header data</em>. For this we will once again use the BizTalk Flat File Wizard. The steps 1 to 13 we went thought earlier will have to repeated with a few <strong>[ Changes in Configuration</strong>&nbsp;<strong>]</strong>. As such I will only list those steps which are different. Yeah you are allowed to call me lazy <img class="wlEmoticon wlEmoticon-smilewithtongueout" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Smile with tongue out" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/wlEmoticon-smilewithtongueout.png">&nbsp;</p>
 <h3>Step 2</h3>
 <p>The BizTalk Flat File Wizard will appear. Now press the <strong>[ Next button]</strong> until you see <strong>[ Flat File Information Screen ]</strong>. On this screen, <strong>[ browse ]</strong> to the csv file in question. Enter a name for the record in the <strong>[ Record Name ]</strong> input field. Leave the other options in tact and press the <strong>[ Next button ]</strong>. Note I’ve named the <strong>[ Record Name ]</strong> EnergyReadings</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image13.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb13.png" width="689" height="544"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image13.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb13.png" width="689" height="544"></a></p>
 <p>&nbsp;</p>
 <h3>Step 3</h3>
 <p>You should now be on the <strong>[ Select Document Screen ]</strong>. On this screen, select the <strong>[ The second line ] </strong>which contains the (repeating) data <strong>&nbsp;</strong>and press the <strong>[ Next button ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image14.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb14.png" width="695" height="549"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image14.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb14.png" width="695" height="549"></a></p>
 <p>&nbsp;</p>
 <h3>Step 6</h3>
 <p>Now you will be presented with the <strong>[ Child Elements ]</strong> screen. On this screen ensure that you change the <strong>[ Element Type ]</strong> from <strong>[ Field Element ]</strong> to <strong>[ Repeating Record ]</strong>. Once done press the <strong>[ Next Button ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image15.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb15.png" width="701" height="553"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image15.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb15.png" width="701" height="553"></a></p>
 <p>&nbsp;</p>
 <h3>Step 11</h3>
 <p>You will now be presented with the <strong>[&nbsp; Childs Elements ]</strong> screen which actually allows us to define the columns value. In our example we will make a few modification relating to the <strong>[ Element Name ]</strong> and the <strong>[ Data Type</strong> <strong>]</strong>. For brevity see the screenshot below which depicts all changes I’ve made. Once you have made the changes press the <strong>[ Next Button ]</strong></p>
 <p>&nbsp;</p>
 <h6>After changes</h6>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image16.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb16.png" width="704" height="555"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image16.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb16.png" width="704" height="555"></a></p>
 <p>&nbsp;</p>
 <p>Congratulations at this point you have created your data structure, however we will need to make some manual changes to the generated schema. This changes will ensure that we will instruct BizTalk to<strong>[ Auto Debatch ] </strong>the inbound records to single records (in case there are multiple data lines.)</p>
 <p>&nbsp;</p>
 <h3>Step 12</h3>
 <p>In order to ensure that <strong>[ Auto Debatching</strong> <strong>]</strong> will happen we will need to do the following. <strong>[ Select the Schema Element ] </strong>of the newly generated schema and then in the <strong>[ Properties ]</strong> window ensure to change the following setting: <strong>[ Allow Message Breakup at InFix Root ] </strong>from<strong>&nbsp; [ False ]</strong>&nbsp; to <strong>[ True ]</strong></p>
 <p><strong><font color="#333333"></font></strong>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image17.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb17.png" width="717" height="400"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image17.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb17.png" width="717" height="400"></a></p>
 <p>&nbsp;</p>
 <h3>Step 13</h3>
 <p>The last step we need to perform to enable <strong>[ Auto Debatching ]</strong> consists of changing the <strong>[ Max Occurs ]</strong>&nbsp; <strong>[ Property</strong> <strong>] </strong>of the <strong>[ Repeating ‘Element’ ] </strong>from being <strong>[ Unbound</strong> <strong>]</strong>&nbsp; to <strong>[ 1 ]</strong></p>
 <p><strong><font color="#333333"></font></strong>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image18.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb18.png" width="722" height="399"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image18.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb18.png" width="722" height="399"></a></p>
 <p><strong><font color="#333333"></font></strong>&nbsp;</p>
 <h2>Create the to use schemas [Other]</h2>
 <p>Now that we’ve created our schemas which represent the flat file definition, we can move on to creating the other schema’s we need. I will not go over the details on how to create these ‘normal’&nbsp; schemas instead I’ll list the schema’s required.</p>
@@ -190,26 +190,26 @@ http://www.CodeHighlighter.com/
 <h4>Property schema</h4>
 <p>We start of with a definition of a simple property schema, this schema will only hold one field and will be named EnergyCompany. </p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image19.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;margin: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb19.png" width="191" height="79"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image19.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;margin: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb19.png" width="191" height="79"></a></p>
 <p>&nbsp;</p>
 <p>If you need more information with regards to property schemas please click on this <a href="http://msdn.microsoft.com/en-us/library/aa561059.aspx" target="_blank" rel="noopener noreferrer">link</a>.</p>
 <p>&nbsp;</p>
 <h4>Internal schema: Reading</h4>
 <p>This schema is our internal representation of a energy reading, and looks as depicted below. Please note that the element named <strong>[ CompanyName ] </strong>has been promoted, as such we can use it later on when we are about to implement or sequential convoy.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image20.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;margin: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb20.png" width="231" height="141"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image20.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;margin: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb20.png" width="231" height="141"></a></p>
 <p>&nbsp;</p>
 <h4>Internal schema: EnergyReading</h4>
 <p>This schema is the actual representation of the xml we will output and contains multiple readings on a per energy ompany basis. It has to be noted that this schema is a composite schema and as such it <strong>[ Imports ]</strong> the schema <strong>[ Reading ] </strong>(see 1). The other thing which has to be noted is the fact that the <strong>[ Reading ]</strong> element has it’s <strong>[ Max Occurs ]</strong> value set to unbounded.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image21.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb21.png" width="738" height="383"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image21.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb21.png" width="738" height="383"></a></p>
 <p>&nbsp;</p>
 <h2>Creation of the Receive Pipeline</h2>
 <p>Now that all schemas have been created we can go ahead with the creation of a receive pipeline. Once again I will not dive into the nitty gritty details, but if you require more information please click on this <a href="http://msdn.microsoft.com/en-us/library/ee267879(v=bts.10).aspx" target="_blank" rel="noopener noreferrer">link</a></p>
 <p>&nbsp;</p>
 <p>So create a <strong>[Receive Pipeline ]</strong> and give it a meaning name, drag a <strong>[ Flat File Disassembler Component ]</strong> to the <strong>[ Design Surface ]</strong> and drop it in the <strong>[ Disassemble stage (1) ]</strong>. Now <strong>[ Click ]</strong>on the just added component and go to the <strong>[ Properties Windows ]</strong>. In this window ensure to select the earlier on created <strong>[ Flat File Header Schema ]</strong> for the <strong>[ Header Schema Property (2) ]</strong> and select the <strong>[Flat File Schema ]</strong> for the <strong>[ Document Schema Property (2) ]</strong>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image22.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb22.png" width="743" height="361"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image22.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb22.png" width="743" height="361"></a></p>
 <p>&nbsp;</p>
 <h2>Transformations</h2>
 <p>At this point we can start with the required mappings we need. In total we will need 3 maps. The required maps are listed below. </p>
@@ -221,22 +221,22 @@ http://www.CodeHighlighter.com/
 <h4>EnergyReadingFF_TO_Reading</h4>
 <p>This mapping will be used on the receive port and will map the generated inbound flat file xml structure to our single reading file.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image23.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb23.png" width="750" height="209"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image23.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb23.png" width="750" height="209"></a></p>
 <p>&nbsp;</p>
 <h4>Reading_TO_EnergyReadings</h4>
 <p>This mapping will be used in our orchestration, which implements a sequential convoy, and maps the single reading file to the energy readings </p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image24.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb24.png" width="760" height="209"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image24.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb24.png" width="760" height="209"></a></p>
 <h4>&nbsp;</h4>
 <h4>Reading_Readings_TO_AggregatedEnergyReadings</h4>
 <p>This mapping will be used in our orchestration which implements a sequential convoy as well, and maps all results together.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image25.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb25.png" width="762" height="349"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image25.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb25.png" width="762" height="349"></a></p>
 <p>&nbsp;</p>
 <h2>Sequential Convoy</h2>
 <p>Before we can deploy our BizTalk Application there is one more thing we need to implement, and that’s a mechanism to output the grouped files. The way to implement this is using an orchestration and implement the <strong>[ Sequential Convoy ]</strong> pattern. Below a screenshot of the end result and I’ll go into the basic details using steps which refer to the screenshot below. In case you want to now more about the <strong>[ Sequential Convoy]</strong> pattern please click on this <a href="http://msdn.microsoft.com/en-us/library/aa561843.aspx" target="_blank" rel="noopener noreferrer">link</a>.</p>
 <p>&nbsp;</p>
-<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image26.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2015/01/image_thumb26.png" width="760" height="816"></a></p>
+<p><a href="https://brauwers-nl.azureedge.net/images/blog/2015/01/image26.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://brauwers-nl.azureedge.net/images/blog/2015/01/image_thumb26.png" width="760" height="816"></a></p>
 <p>&nbsp;</p>
 <h4>Step 1: rcvReading</h4>
 <p>This receive shape ensures that messages with the message type <a href="http://FlatFileGrouping.Reading#Reading">http://FlatFileGrouping.Reading#Reading</a> are being subscribed to. These are the single reading messages as stated earlier. It has to be noted that we initialize a <strong>[ correlation Set ]</strong> this set will ensure that we actually will create a single process (Singleton) which subscribes not only to messages of the aforementioned messagetypes but to messages which contain the same value for the element CompanyName contained with the reading message.</p>
