@@ -15,8 +15,12 @@ author: René Brauwers
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Twitter: "https://twitter.com/ReneBrauwers"
-    - LinkedIn: "https://www.linkedin.com/in/renebrauwers/"
+    - Integration Down Under: "https://www.integrationdownunder.com/"
+    - BizTalk Community Open Source: "https://github.com/BizTalkCommunity"
+  Youtube channels:
+    - Integration Down Under: "https://www.youtube.com/channel/UC5N-7y5XDeX0IY9mkssqRZQ"
+    - Azure Functions: "https://www.youtube.com/channel/UCtUYj6As_XFkOooUFnsJbYg"
+    - Logic Apps: "https://www.youtube.com/channel/UCbJQweD96Y7n-ebKpdLDJww"
   Author's home: "https://www.brauwers.com.au"
 
 # --- Logo --- #
@@ -107,7 +111,7 @@ footer-link-col: "#404040"
 google_analytics: "UA-25036178-1"
 
 # Google Tag Manager ID
-gtm: "GTM-WP9KX46"
+#gtm: "GTM-WP9KX46"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -120,7 +124,7 @@ gtm: "GTM-WP9KX46"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "brauwers"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
