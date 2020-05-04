@@ -23,12 +23,12 @@ categories:
 ---
 First things first, at this point in time I assume
 <ul>
-	<li>you’ve read the <a href="http://blog.brauwers.nl/2012/01/13/how-to-microsoft-crm-2011-integration-example-part-1introduction/" target="_blank" rel="noopener noreferrer">previous post</a></li>
+	<li>you’ve read the <a href="https://blog.brauwers.nl/2012-01-13-how-to-microsoft-crm-2011-integration-example-part-1introduction/" target="_blank" rel="noopener noreferrer">previous post</a></li>
 	<li>downloaded and installed the <a href="http://www.microsoft.com/download/en/details.aspx?id=24004" target="_blank" rel="noopener noreferrer">CRM2011 SDK</a></li>
 	<li>have a working CRM2011 environment to your proposal.</li>
 	<li>you have an account for CRM2011 with sufficient rights (I’d recommend System Administrator)</li>
 	<li>have visual studio 2010 installed.</li>
-	<li>downloaded and extract my visual studio <a href="http://blog.brauwers.nl/?attachment_id=1292" target="_blank" rel="noopener noreferrer">example solution</a></li>
+	<li>downloaded and extract my visual studio <a href="https://blog.brauwers.nl/?attachment_id=1292" target="_blank" rel="noopener noreferrer">example solution</a></li>
 </ul>
 &nbsp;
 
@@ -38,7 +38,7 @@ So you’ve met all the requirements mentioned above? Good; let’s get started.
 <blockquote>Note: all code should be used for Demo/Test purposes only! I did not intent it to be Production Grade. So, if you decide to use it, don’t use it for Production Purposes!</blockquote>
 &nbsp;
 <h2>Building your Custom Workflow Activity for CRM2011</h2>
-Once you’ve downloaded and extracted my visual studio <a href="http://blog.brauwers.nl/?attachment_id=1292" target="_blank" rel="noopener noreferrer">example solution</a>, it is time to open it and fix some issues.
+Once you’ve downloaded and extracted my visual studio <a href="https://blog.brauwers.nl/?attachment_id=1292" target="_blank" rel="noopener noreferrer">example solution</a>, it is time to open it and fix some issues.
 
 &nbsp;
 <h3> </h3>
@@ -47,7 +47,7 @@ Go to the Crm2011Entities Project and extend the references folder and remove th
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb.png" width="244" height="212" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb.png" width="244" height="212" border="0" /></a>
 
 &nbsp;
 
@@ -55,13 +55,13 @@ Once done, we are going to re-add these references; so right click on the Refere
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image1.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb1.png" width="244" height="130" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image1.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb1.png" width="244" height="130" border="0" /></a>
 
 &nbsp;
 
 Now click on the ‘browse’ button, in the add reference dialog window
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image2.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb2.png" width="244" height="141" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image2.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb2.png" width="244" height="141" border="0" /></a>
 
 &nbsp;
 
@@ -72,7 +72,7 @@ Now browse to your Windows CRM 2011 SDK BIN folder (in my case: B:InstallMicroso
 </ul>
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image3.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb3.png" width="244" height="163" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image3.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb3.png" width="244" height="163" border="0" /></a>
 
 &nbsp;
 
@@ -80,7 +80,7 @@ Now repeat the above mentioned steps for the other project
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image4.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb4.png" width="244" height="143" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image4.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb4.png" width="244" height="143" border="0" /></a>
 
 &nbsp;
 
@@ -108,20 +108,20 @@ Open op the “Crm2011Entities Project”, and notice that it does not contain a
 
 So let’s fix this, and open up a command prompt with administrator privileges.
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image5.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb5.png" width="183" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image5.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb5.png" width="183" height="244" border="0" /></a>
 
 &nbsp;
 
 Now navigate to your CRM 2011 SDK Folder (in my case this would be: B:InstallMicrosoft CRMSDK CRM 2011bin)
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image6.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb6.png" width="244" height="45" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image6.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb6.png" width="244" height="45" border="0" /></a>
 
 &nbsp;
 <blockquote>Note: Before you proceed, ensure that you know the url of the  the CRM2011 OrganizationService. Just test it, by simply browsing to this address, and if everything goes right you should see the following page:
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image7.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb7.png" width="244" height="145" border="0" /></a></blockquote>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image7.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb7.png" width="244" height="145" border="0" /></a></blockquote>
 &nbsp;
 
 &nbsp;
@@ -130,34 +130,34 @@ now type in the following command (and replace the values between &lt;….&gt; w
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image8.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb8.png" width="244" height="34" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image8.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb8.png" width="244" height="34" border="0" /></a>
 
 &nbsp;
 
 Once completed, you should be presented with the following output:
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image9.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb9.png" width="244" height="52" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image9.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb9.png" width="244" height="52" border="0" /></a>
 
 &nbsp;
 
 The actual file should be written to the location you set and in my case this is: c:Temp
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image10.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb10.png" width="244" height="111" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image10.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb10.png" width="244" height="111" border="0" /></a>
 
 &nbsp;
 
 Once the actual class has been generated, open Visual Studio and right click on the CRM2011Entities project and select  ‘Add Existing Item’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image11.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb11.png" width="244" height="237" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image11.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb11.png" width="244" height="237" border="0" /></a>
 
 Browse to the directory in which the generated class was saved, and select the generated class.
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image12.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb12.png" width="244" height="165" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image12.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb12.png" width="244" height="165" border="0" /></a>
 
 &nbsp;
 
 At this point you should be able to compile the complete solution, so go ahead and do so.
-<blockquote>Note: The <a href="http://blog.brauwers.nl/?attachment_id=1292" target="_blank" rel="noopener noreferrer">source code</a>; includes comments which should be self-explanatory</blockquote>
+<blockquote>Note: The <a href="https://blog.brauwers.nl/?attachment_id=1292" target="_blank" rel="noopener noreferrer">source code</a>; includes comments which should be self-explanatory</blockquote>
 &nbsp;
 
 &nbsp;
@@ -176,19 +176,19 @@ In the pluginregistration folder, browse to the bin folder and either open the d
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image13.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb13.png" width="244" height="130" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image13.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb13.png" width="244" height="130" border="0" /></a>
 
 &nbsp;
 
 You will be presented with the following GUI:
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image14.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb14.png" width="244" height="172" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image14.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb14.png" width="244" height="172" border="0" /></a>
 
 &nbsp;
 
 Now click on “Create New Connection”
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image15.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb15.png" width="244" height="28" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image15.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb15.png" width="244" height="28" border="0" /></a>
 
 &nbsp;
 
@@ -218,19 +218,19 @@ Fill out the connection information, consisting of:
 </ul>
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image16.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb16.png" width="244" height="132" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image16.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb16.png" width="244" height="132" border="0" /></a>
 
 &nbsp;
 
 Once everything is filled in, press Connect and wait until the discovery is finished. Once finished double click on the organization name (in my case: Motion10 Lab Environent ) and wait for the objects to be loaded.
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image17.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb17.png" width="121" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image17.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb17.png" width="121" height="244" border="0" /></a>
 
 &nbsp;
 
 Once the objects have been loaded; you should see a screen similar to the one depicted here below:
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image18.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb18.png" width="244" height="171" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image18.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb18.png" width="244" height="171" border="0" /></a>
 
 &nbsp;
 
@@ -238,13 +238,13 @@ Now let’s add our ‘Custom Activity or plugin’. Do this by selecting the �
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image19.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb19.png" width="244" height="126" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image19.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb19.png" width="244" height="126" border="0" /></a>
 
 &nbsp;
 
 The ‘Register New Plugin’ screen will popup and click on the ‘Browse (…)’ button.
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image20.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb20.png" width="217" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image20.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb20.png" width="217" height="244" border="0" /></a>
 
 &nbsp;
 
@@ -252,13 +252,13 @@ Now browse to the bin folder of the example project “SendCrmEntityToEndPoint�
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image21.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb21.png" width="244" height="150" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image21.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb21.png" width="244" height="150" border="0" /></a>
 
 &nbsp;
 
 Once done, select the option “None“ at step 3 and select the option “Database“ at step 4 and press the button ‘Register Selected Plugins’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image22.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb22.png" width="204" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image22.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb22.png" width="204" height="244" border="0" /></a>
 
 &nbsp;
 
@@ -266,7 +266,7 @@ Once done you should receive feedback that the plugin was successfully registere
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image23.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb23.png" width="218" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image23.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb23.png" width="218" height="244" border="0" /></a>
 
 &nbsp;
 <h3>Creating a workflow in CRM2011 which uses the custom activity.</h3>
@@ -276,19 +276,19 @@ Now that we have registered our ‘plugin’, it is time to put it to action. In
 
 Once you’ve logged on to CRM2011, click on ‘Settings’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image24.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb24.png" width="244" height="147" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image24.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb24.png" width="244" height="147" border="0" /></a>
 
 &nbsp;
 
 Now find the ‘Process Center’ section and click on ‘Processes’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image25.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb25.png" width="244" height="147" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image25.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb25.png" width="244" height="147" border="0" /></a>
 
 &nbsp;
 
 In the main window, click on ‘New’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image26.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb26.png" width="244" height="125" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image26.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb26.png" width="244" height="125" border="0" /></a>
 
 &nbsp;
 
@@ -322,7 +322,7 @@ A dialog window will pop up; fill in the following details and once done press O
 </li>
 	<li>Category: <em>Select WorkFlow</em></li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image27.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb27.png" width="244" height="206" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image27.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb27.png" width="244" height="206" border="0" /></a>
 
 &nbsp;
 
@@ -349,11 +349,11 @@ A new window will pop up; which is used to define the actual workflow. Use the f
 </ul>
 </li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image28.png"><img style="background-image: none; margin: 5px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb28.png" width="244" height="210" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image28.png"><img style="background-image: none; margin: 5px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb28.png" width="244" height="210" border="0" /></a>
 <ul>
 	<li>Now add the following step: Check Condition</li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image29.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb29.png" width="158" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image29.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb29.png" width="158" height="244" border="0" /></a>
 
 &nbsp;
 <ul>
@@ -374,13 +374,13 @@ A new window will pop up; which is used to define the actual workflow. Use the f
 </ul>
 </li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image30.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb30.png" width="244" height="39" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image30.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb30.png" width="244" height="39" border="0" /></a>
 
 &nbsp;
 <ul>
 	<li>Now add our custom activity the following step: SendCrmEntityToEndPoint</li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image31.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb31.png" width="130" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image31.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb31.png" width="130" height="244" border="0" /></a>
 <ul>
 	<li>Configure this activity like this:
 <ul>
@@ -411,13 +411,13 @@ A new window will pop up; which is used to define the actual workflow. Use the f
 </ul>
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image32.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb32.png" width="244" height="190" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image32.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb32.png" width="244" height="190" border="0" /></a>
 
 &nbsp;
 <ul>
 	<li>Now once again add our custom activity the following step: SendCrmEntityToEndPoint</li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image33.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb33.png" width="130" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image33.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb33.png" width="130" height="244" border="0" /></a>
 
 &nbsp;
 <ul>
@@ -437,7 +437,7 @@ A new window will pop up; which is used to define the actual workflow. Use the f
 </ul>
 </li>
 </ul>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image34.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb34.png" width="244" height="190" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image34.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb34.png" width="244" height="190" border="0" /></a>
 
 &nbsp;
 
@@ -445,25 +445,25 @@ Well at this point your workflow should look similar to this:
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image35.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb35.png" width="244" height="185" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image35.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb35.png" width="244" height="185" border="0" /></a>
 
 &nbsp;
 
 Now click on the ‘Activate’ button
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image36.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb36.png" width="244" height="185" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image36.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb36.png" width="244" height="185" border="0" /></a>
 
 &nbsp;
 
 Confirm the ‘Activation’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image37.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb37.png" width="244" height="179" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image37.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb37.png" width="244" height="179" border="0" /></a>
 
 &nbsp;
 
 Save and close the new workflow
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image38.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb38.png" width="244" height="185" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image38.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb38.png" width="244" height="185" border="0" /></a>
 
 &nbsp;
 <h3>Test if everything works</h3>
@@ -476,35 +476,35 @@ So now it is time to see if everything works; in order to do so we will create a
 
 In CRM2011 click on the ‘Work Place’ button
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image39.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb39.png" width="81" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image39.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb39.png" width="81" height="244" border="0" /></a>
 
 &nbsp;
 
 Subsequently click on ‘Accounts’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image40.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb40.png" width="147" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image40.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb40.png" width="147" height="244" border="0" /></a>
 
 And finally add a new ‘Account’, by clicking on ‘NEW’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image41.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb41.png" width="244" height="82" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image41.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb41.png" width="244" height="82" border="0" /></a>
 
 &nbsp;
 
 A new window will pop-up; fill in some basic details
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image42.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb42.png" width="244" height="170" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image42.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb42.png" width="244" height="170" border="0" /></a>
 
 &nbsp;
 
 and don’t forget to set the Relationship type to ‘Prospect’
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image43.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb43.png" width="244" height="101" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image43.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb43.png" width="244" height="101" border="0" /></a>
 
 &nbsp;
 
 Once done click on the ‘Save &amp; Close’ button
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image44.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb44.png" width="205" height="192" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image44.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb44.png" width="205" height="192" border="0" /></a>
 
 &nbsp;
 
@@ -512,11 +512,11 @@ After a few minutes we can check both our output directory and the BizTalk Admin
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image45.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb45.png" width="244" height="184" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image45.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb45.png" width="244" height="184" border="0" /></a>
 
 and we should have an ‘Routing Failure’ error in BizTalk.
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image46.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2012/01/image_thumb46.png" width="244" height="175" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image46.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2012/01/image_thumb46.png" width="244" height="175" border="0" /></a>
 
 &nbsp;
 <h2>Closing Note</h2>

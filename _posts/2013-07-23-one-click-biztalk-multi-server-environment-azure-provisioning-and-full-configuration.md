@@ -52,7 +52,7 @@ categories:
     includes configuration of hosts / host instances and adding them to the adapters</p>
 <p>&nbsp;</p>
 <h1>Instructions</h1>
-<p>1. Download the powershell scripts <a href="http://blog.brauwers.nl/?attachment_id=2072">here</a></p>
+<p>1. Download the powershell scripts <a href="https://blog.brauwers.nl/?attachment_id=2072">here</a></p>
 <p>2. Unzip</p>
 <p>3. Download your azure publisher profile <a href="https://windows.azure.com/download/publishprofile.aspx">here</a></p>
 <p>4. Open the script in your favorite editor using Administrative Privileges</p>

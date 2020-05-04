@@ -61,7 +61,7 @@ Actual exception: Log indicated 'Cannot alter the role 'NSSubscriberAdmin', beca
 </ol>
 &nbsp;
 <h2>END Result</h2>
-<a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2013/03/image.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2013/03/image_thumb.png" width="244" height="124" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2013/03/image.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2013/03/image_thumb.png" width="244" height="124" border="0" /></a>
 
 Well this was a quick post, but I hope that it might help you out; if you encounter the same issues
 

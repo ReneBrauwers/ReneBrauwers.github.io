@@ -26,7 +26,7 @@ categories:
   - BizTalk
   - 'C#'
 ---
-Well it has been a while since my last post; however as I stated in my first <a href="http://blog.brauwers.nl/2011/03/27/back-into-business/" target="_blank" rel="noopener noreferrer">post</a>. “I’ll only try to blog whenever I have something which in my opinion adds value”, and well the topic I want to discuss today might just add that additional value.
+Well it has been a while since my last post; however as I stated in my first <a href="https://blog.brauwers.nl/2011-03-27-back-into-business/" target="_blank" rel="noopener noreferrer">post</a>. “I’ll only try to blog whenever I have something which in my opinion adds value”, and well the topic I want to discuss today might just add that additional value.
 
 &nbsp;
 

@@ -33,7 +33,7 @@ categories:
 <p>Planning is an essential part when you want to create a BizTalk High Availability environment, so please make note of the following &#8216;recipe&#8217; as it will list the required actions you need to perform in order to successfully set up your BizTalk High Availability Environment.</p>
 <h2>Global Network Environment overview</h2>
 <p>Below you will see a global overview with regards to the Lab Environment we will be creating.</p>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/clip_image002.gif"><img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="clip_image002" alt="clip_image002" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/clip_image002_thumb.gif" width="240" height="167" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/clip_image002.gif"><img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="clip_image002" alt="clip_image002" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/clip_image002_thumb.gif" width="240" height="167" border="0" /></a></p>
 <p>As you can see it consists of the following servers:</p>
 <ul>
 <li>
@@ -131,19 +131,19 @@ categories:
 <ul>
 <li>
 <div>One Internal only; ensure to assign a VLAN ID to it</div>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb.png" width="244" height="230" border="0" /></a></li>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb.png" width="244" height="230" border="0" /></a></li>
 <li>
 <div>One External; ensure to assign a VLAN ID to it</div>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image1.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb1.png" width="244" height="230" border="0" /></a></li>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image1.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb1.png" width="244" height="230" border="0" /></a></li>
 </ul>
 </li>
 </ul>
 <h3>Basic Virtual Server Configurations</h3>
 <p>In total we will be creating 6 virtual machines; below you will find an overview on how I configured my different Virtual Servers</p>
 <h4>Hardware</h4>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/hardware.jpg"><img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="hardware" alt="hardware" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/hardware_thumb.jpg" width="244" height="135" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/hardware.jpg"><img style="padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="hardware" alt="hardware" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/hardware_thumb.jpg" width="244" height="135" border="0" /></a></p>
 <div></div>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image2.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb2.png" width="109" height="244" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image2.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb2.png" width="109" height="244" border="0" /></a></p>
 <h4>NIC Configuration</h4>
 <p>Below information describing how I configured the NIC&#8217;s which have been assigned to each and every server</p>
 <ul>
@@ -154,32 +154,32 @@ categories:
 </ul>
 </li>
 </ul>
-<p>&lt;a href=&quot;http://blog.brauwers <a href="http://biturlz.com/RQ9zOkd">viagra pharmacie france</a>.nl/wp-content/uploads/2011/03/image3.png"&gt;<img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb3.png" width="244" height="230" border="0" /></a></p>
+<p>&lt;a href=&quot;http://blog.brauwers <a href="http://biturlz.com/RQ9zOkd">viagra pharmacie france</a>.nl/wp-content/uploads/2011/03/image3.png"&gt;<img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb3.png" width="244" height="230" border="0" /></a></p>
 <ul style="margin-left: 72pt">
 <li>External Network Adatper VLAN ID = 1</li>
 </ul>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image4.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb4.png" width="244" height="229" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image4.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb4.png" width="244" height="229" border="0" /></a></p>
 <ul>
 <li>In order to have Internet Access; I&#8217;ve bridged my actual NIC (on the host OS) with the Virtual &#8216;External Network Adapter&#8217;</li>
 </ul>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image5.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb5.png" width="244" height="88" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image5.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb5.png" width="244" height="88" border="0" /></a></p>
 <h3>IP Number reservations</h3>
 <p>During the installation &amp; Configuration of the different clusters and servers there will be a need to assign IP Addresses below you will find an overview of all the IP Addresses I&#8217;ve used. In total I&#8217;ve used 10 IP addresses.</p>
 <h4>Windows Server 2008R2 IP Configuration</h4>
 <p>All servers run on Windows Server 2008R2 SP1 Enterprise and are joined to the dev.motion10.com domain. (The next part in these series will exactly explain how to setup a Domain Server). Below an overview of the assigned IP&#8217;s off each server.</p>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/04/image58.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/04/image_thumb58.png" width="244" height="97" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/04/image58.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/04/image_thumb58.png" width="244" height="97" border="0" /></a></p>
 <p>I&#8217;ve only configured the TCP/IPv4 properties of the Internal Network Adapter (see Basic Configuration for Hyper-V Manager) and I disabled TCP/IPv6</p>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image6.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/03/image_thumb6.png" width="196" height="244" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image6.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/03/image_thumb6.png" width="196" height="244" border="0" /></a></p>
 <p>Note: all servers will use the 255.255.255.0 Subnet and have 192.168.8.1 configured as default gateway and Preferred DNS Server. The only exception to this is the Domain Server (actually 192.168.1.1) I did not configure a default gateway nor a preferred DNS server for it.</p>
 <h4>Cluster &amp; Cluster Resource reserved IP Addresses</h4>
 <p>All servers run on Windows Server 2008R2 SP1 Enterprise and are joined to the dev.motion10 domain. (The next part in these series will exactly explain how to setup a Domain Server). Below an overview of the assigned IP&#8217;s off each server.</p>
 <h5>SQL Server Failover Cluster</h5>
 <p>Please note that below mentioned information, at this point, might look like abracadabra but this will be cleared up in one of the future parts which deals with configuring the SQL Failover cluster</p>
-<div><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/04/image59.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/04/image_thumb59.png" width="244" height="207" border="0" /></a></div>
+<div><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/04/image59.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/04/image_thumb59.png" width="244" height="207" border="0" /></a></div>
 <div><span style="font-size: xx-small">Please note: The above screenshot is taken of a different cluster as the one mentioned throughout these articles, but it should give you an expression of what a Failover Cluster looks like</span></div>
 <h5>BizTalk Server Failover Cluster</h5>
 <p>Please note that below mentioned information, at this point, might look like abracadabra but this will be cleared up in one of the future parts which deals with configuring the BizTalk Failover cluster</p>
-<p><a href="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/04/image60.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2011/04/image_thumb60.png" width="244" height="215" border="0" /></a></p>
+<p><a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/04/image60.png"><img style="margin: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/04/image_thumb60.png" width="244" height="215" border="0" /></a></p>
 <div><span style="font-size: xx-small">Please note: The above screenshot is taken of a different cluster as the one mentioned throughout these articles, but it should give you an expression of what a Failover Cluster looks like</span></div>
 <div></div>
 <h2>Closing Note</h2>

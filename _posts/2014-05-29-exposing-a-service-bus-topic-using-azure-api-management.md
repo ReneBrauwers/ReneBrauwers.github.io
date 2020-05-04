@@ -79,22 +79,22 @@ categories:
 <ol>
 <li>
 <div>If you have logged in to the preview portal, click on the &#8217;tile&#8217; Azure Portal. This will redirect you to an alternative portal which allows for a more complete management of your Azure Services.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase1.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase1.png" alt="" /></li>
 <li>
 <div>In the &#8216;traditional&#8217; portal click on Service Bus</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase2.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase2.png" alt="" /></li>
 <li>
 <div>Create a new Namespace for your Service bus Entity</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase3.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase3.png" alt="" /></li>
 <li>
 <div>Enter a name for your Service bus namespace and select the region to which it should be deployed and select the checkmark which starts the provisioning.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase4.png" alt="" width="265" height="186" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase4.png" alt="" width="265" height="186" /></li>
 <li>
 <div>Once the provisioning has finished, select the Service Bus Entity and click on Connection Information</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase5.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase5.png" alt="" /></li>
 <li>
 <div>A window will appear with Access Connection Information, in this screen copy the ACS Connection String to your clipboard. (We will need this connection string later on) and then click on the checkbox to close to window</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase6.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase6.png" alt="" /></li>
 </ol>
 <p>&nbsp;</p>
 <h3><a name="#Create_a_new_Azure_Service_Bus_TOPIC">Create a new Azure Service Bus TOPIC</a></h3>
@@ -108,19 +108,19 @@ categories:
 </li>
 <li>
 <div>Copy and paste the ACS Connection String (you copied earlier, see previous section step 6) and once done press &#8220;OK&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase7.png" alt="" width="279" height="475" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase7.png" alt="" width="279" height="475" /></li>
 <li>
 <div>The Service Bus Explorer should now have made a connection to your Service Bus Entity</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase8.png" alt="" width="280" height="173" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase8.png" alt="" width="280" height="173" /></li>
 <li>
 <div>In the menu on your left, select the TOPIC node, right click and select &#8220;Create Topic&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase9.png" alt="" width="281" height="246" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase9.png" alt="" width="281" height="246" /></li>
 <li>
 <div>In the window which now appears enter a TOPIC name &#8220;managementapi_requests&#8221; in the &#8220;Path&#8221; box and leave all other fields blank (we will use the defaults). Once done press the &#8220;Create button&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase10.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase10.png" alt="" /></li>
 <li>
 <div>Your new Topic should now have been created</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase11.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase11.png" alt="" /></li>
 </ol>
 <h3></h3>
 <h3><a name="#Add_Subscriptions_and_filters_to_your_newly_created_TOPIC">Add Subscriptions and filters to your newly created TOPIC</a></h3>
@@ -131,7 +131,7 @@ categories:
 </li>
 <li>
 <div>Right click on the TOPIC and select &#8220;Create Subscription&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase12.png" alt="" width="360" height="376" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase12.png" alt="" width="360" height="376" /></li>
 <li>
 <div>The Create Subscription windows will now show in which you should execute the following steps</div>
 <ul>
@@ -139,7 +139,7 @@ categories:
 <li><strong>B)</strong> Filter: <strong>MessageAction=&#8217; BusinessActivityMonitoring&#8217;</strong></li>
 <li><strong>C)</strong> Click on the Create button</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase13.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase13.png" alt="" /></li>
 <li>
 <div>Now repeat Steps 2 and 3 in order to create the following subscription</div>
 <ul>
@@ -160,13 +160,13 @@ categories:
 </li>
 <li>
 <div>Now select TOPICS from the tab menu</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase14.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase14.png" alt="" /></li>
 <li>
 <div>Select the Connection Information Icon on the bottom</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase15.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase15.png" alt="" /></li>
 <li>
 <div>A new window will pop up, in this windows click on the link &#8220;Click here to configure&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase16.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase16.png" alt="" /></li>
 <li>
 <div>Now un the shared access policies:</div>
 <ul>
@@ -178,10 +178,10 @@ categories:
 <li><strong>F)</strong> Assign the Manage permission to this policy</li>
 <li><strong>G)</strong> Click on the SAVE icon on the bottom</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase17.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase17.png" alt="" /></li>
 <li>
 <div>At this point for each policy a Primary and Secondary key should be generated.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase18.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase18.png" alt="" /></li>
 </ol>
 <h3></h3>
 <h3><a name="#Generate_a_SAS_Token">Generate a SAS Token</a></h3>
@@ -199,11 +199,11 @@ categories:
 <li><strong>D)</strong> Expiry Date = Select the date you want the Sas token to expire</li>
 <li><strong>E) </strong>Click on generate</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase19.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase19.png" alt="" /></li>
 <li>
 <div>After you have clicked GENERATE by Default a file will be created on your desktop containing all generated Sas Tokens, the file is named SAS_tokens.txt. Once saved you will be asked if you want to copy the generated token to your Clipboard. Below 2 images depicting the message-prompt as well as the contents stored in the generated file.Perform step 2 for the other 2 policies as well (API_Listen and API_Manage)</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase20.png" alt="" width="350" height="126" /></p>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase21.png" alt="" width="351" height="172" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase20.png" alt="" width="350" height="126" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase21.png" alt="" width="351" height="172" /></li>
 </ol>
 <h3></h3>
 <h3><a name="#Create_a_new_API_Management_Instance">Create a new API Management Instance</a></h3>
@@ -214,10 +214,10 @@ categories:
 </li>
 <li>
 <div>Click on API Management, in the right menu-bar, and click on the link &#8220;Create an API Management Service&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase22.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase22.png" alt="" /></li>
 <li>
 <div>A menu will pop up in which you need to select CREATE once more</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase23.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase23.png" alt="" /></li>
 <li>
 <div>At this point a new window will appear:</div>
 <ul>
@@ -227,7 +227,7 @@ categories:
 <li><strong>D)</strong> Region: Select a region close to you</li>
 <li><strong>E)</strong> Click on the right arrow</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase24.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase24.png" alt="" /></li>
 <li>
 <div>You now will end up at step 2:</div>
 <ul>
@@ -235,7 +235,7 @@ categories:
 <li><strong>B)</strong> Administration E-Mail: Enter your email address</li>
 <li><strong>C)</strong> Click on the &#8216;Checkmark&#8217; icon</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase25.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase25.png" alt="" /></li>
 <li>
 <div>In about 15 minutes your API management Service will have been created and you will be able to login.</div>
 </li>
@@ -244,9 +244,9 @@ categories:
 <h2><a name="#Azure_API_Management_Configuration">Azure API Management Configuration</a></h2>
 <p>Now that we have provisioned our Azure API management service it is time to create and configure an API which exposes the previously defined Azure Service Bus Topic such that we can send messages to it. The API which we are about to create will expose one operation pointing to the Azure Service Bus Topic and will accept both XML as JSON messages. Later on we will define a policy which will ensure that if a JSON message is received it is converted to XML and that the actual calls to the Service Bus Rest API are properly authenticated using our SAS token created earlier.</p>
 <p>So let&#8217;s get started with the creation of our API by Clicking the Manage Icon which should be visible in the menu bar at the bottom of your window.</p>
-<p style="margin-left: 36pt"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase26.png" alt="" /></p>
+<p style="margin-left: 36pt"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase26.png" alt="" /></p>
 <p>Once you&#8217;ve clicked the Manage icon, you should automatically be redirected to the API Management portal.</p>
-<p style="margin-left: 36pt"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase27.png" alt="" /></p>
+<p style="margin-left: 36pt"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase27.png" alt="" /></p>
 <h3></h3>
 <h3><a name="#Create_and_configure_a_new_API">Create and configure a new API</a></h3>
 <p>Now that you are in the Azure API Management Administration Portal you can start with creating and configuring a new API, which will virtualize your Service Bus Topic Rest Endpoints. In order to do so follow the following steps.</p>
@@ -254,10 +254,10 @@ categories:
 <ol>
 <li>
 <div>Click on the API&#8217;s menu item on your left</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase28.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase28.png" alt="" /></li>
 <li>
 <div>Click on ADD API</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase29.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase29.png" alt="" /></li>
 <li>
 <div>A new window will appear, fill out the following details</div>
 <ul>
@@ -283,10 +283,10 @@ categories:
 <div><strong>D) </strong>Once done, press Save</div>
 </li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase30.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase30.png" alt="" /></li>
 <li>
 <div>Once the API has been created you will end up at the API configuration page</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase31.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase31.png" alt="" /></li>
 <li>
 <div>Now click on the Settings Tab</div>
 <ul>
@@ -294,13 +294,13 @@ categories:
 <li><strong>B)</strong> Ensure to set authentication to None (we will use the SAS token later on, to authenticate)</li>
 <li><strong>C) </strong>Press Save</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase32.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase32.png" alt="" /></li>
 <li>
 <div>Now click on the Operations Tab, and click on ADD Operation.</div>
 <ul>
 <li>Note: detailed information on how to configure an operation can be found <a href="http://azure.microsoft.com/en-us/documentation/articles/api-management-howto-add-operations/">here</a></li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase33.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase33.png" alt="" /></li>
 <li>
 <div>A form will appear which will allow you to configure and add an operation to service. By default the Signature menu item is selected, so we start with configuring the signature of our operation.</div>
 <ul>
@@ -309,19 +309,19 @@ categories:
 <li><strong>C)</strong> Display Name: Enter a name, which will be used to identify the operation</li>
 <li><strong>D)</strong> Description: Describe what your operation does</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase34.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase34.png" alt="" /></li>
 <li>
 <div>Now click on the Body item in the menu bar on the left underneath REQUESTS (we will skip caching as we don&#8217;t want to cache anything), and fill out the following fields</div>
 <ul>
 <li><strong>A) </strong>Description: add a description detailing how the request body should be represented</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase35.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase35.png" alt="" /></li>
 <li>
 <div>Now click on the ADD REPRESENTATION item just underneath the description part and enter Application/XML</div>
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase36.png" alt="" width="166" height="84" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase36.png" alt="" width="166" height="84" /></p>
 <ol>
 <ol>
 <li>
@@ -329,7 +329,7 @@ categories:
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase37.png" alt="" width="457" height="216" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase37.png" alt="" width="457" height="216" /></p>
 <ol>
 <ol>
 <li>
@@ -337,7 +337,7 @@ categories:
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase38.png" alt="" width="174" height="155" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase38.png" alt="" width="174" height="155" /></p>
 <ol>
 <ol>
 <li>
@@ -345,18 +345,18 @@ categories:
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase39.png" alt="" width="496" height="207" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase39.png" alt="" width="496" height="207" /></p>
 <ol>
 <li>
 <div>Now click on the ADD item in the menu bar on the left underneath RESPONSES (We will skip Caching, Parameters and Body as we don&#8217;t need it)</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase40.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase40.png" alt="" /></li>
 <li>
 <div>Start typing and select a response code you which to return once the message has been send to the service operation.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase41.png" alt="" width="178" height="357" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase41.png" alt="" width="178" height="357" /></li>
 <li>
 <div>Now you could add a description and add a REPRESENTATION, however in our case we will skip this as a response code 202 Accepted is all we will return.</div>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase42.png" alt="" /></li>
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase42.png" alt="" /></li>
 <li>Press save</li>
 </ol>
 <h3><a name="#Create_a_new_Product">Create a new Product</a></h3>
@@ -365,10 +365,10 @@ categories:
 <ol>
 <li>
 <div>Select the Products menu item from within the API Management Administration Portal and click on it.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase43.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase43.png" alt="" /></li>
 <li>
 <div>A new window will appear listing all products currently available, in this window click on the ADD PRODUCT item</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase44.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase44.png" alt="" /></li>
 <li>
 <div>Fill out the following form items in order to create a product.</div>
 <ul>
@@ -377,16 +377,16 @@ categories:
 <li><strong>C)</strong> Require subscription approval: Ensure to check this, as this will require any subscription requests to this product to be approved first</li>
 <li><strong>D)</strong> Press Save</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase45.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase45.png" alt="" /></li>
 <li>
 <div>Now that we have created our Product it is time to see if there are any other things we need to configure before we add policies to it and publish it. In order to check the settings by clicking on the newly created product</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase46.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase46.png" alt="" /></li>
 <li>
 <div>On the summary tab, click on the link ADD API TO PRODUCT</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase47.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase47.png" alt="" /></li>
 <li>
 <div>A new window will pop up, select the API you want to add to the product and once done click Save</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase48.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase48.png" alt="" /></li>
 </ol>
 <h3><a name="#Create_a_new_Policy_for_your_defined_API_operations">Create a new Policy for your defined API operations</a></h3>
 <p>At this point we have created a product but have not yet published it. We will publish it in a bit, but first we need to set up some policies for the API and the operation we&#8217;ve created earlier, In order to do this follow these steps</p>
@@ -401,7 +401,7 @@ categories:
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase49.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase49.png" alt="" /></p>
 <ol>
 <ol>
 <li>
@@ -409,7 +409,7 @@ categories:
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase50.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase50.png" alt="" /></p>
 <ol>
 <ol>
 <li>
@@ -417,7 +417,7 @@ categories:
 </li>
 </ol>
 </ol>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase51.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase51.png" alt="" /></p>
 <h4><a name="#Setting_up_your_Policy_definition">Setting up your Policy definition</a></h4>
 <p>For our API operation to correctly function we are going to have to add a few policies. These policies should take care of the following functionality</p>
 <ul>
@@ -430,10 +430,10 @@ categories:
 <ol>
 <li>
 <div>In the Policy definition section, ensure to place your cursor after the &lt;inbound&gt; tag</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase52.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase52.png" alt="" /></li>
 <li>
 <div>From the Policy statements, select and click on the &#8220;Set HTTP Header&#8221; statement.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase53.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase53.png" alt="" /></li>
 <li>
 <div>A &#8220;Set Header&#8221; Tag will be added to the Policy Definition area, which will leverage the Authorization Header containing our SAS token we created earlier. The steps required are listed below:</div>
 <ul>
@@ -441,7 +441,7 @@ categories:
 <li><strong>B)</strong> Put in the following value &#8220;skip&#8221; for the attribute &#8220;exists-action&#8221;</li>
 <li><strong>C) </strong>Now get the SAS Token you created earlier, wrap the token string in between a CDATA element and put all of this in between the &#8220;value&#8221; element</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase54.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase54.png" alt="" /></p>
 <p>Textual example:</p>
 <p style="margin-left: 18pt"><span style="font-size: 10pt;font-family: arial;color: blue;background-color: white">&lt;<span style="color: maroon">set-header<span style="color: red"> name<span style="color: blue">=&#8221;<span style="color: black">Authorization<span style="color: blue">&#8220;<span style="color: red"> exists-action<span style="color: blue">=&#8221;<span style="color: black">skip<span style="color: blue">&#8220;&gt;</span></span></span></span></span></span></span></span></span></span></p>
 <p>&nbsp;</p>
@@ -454,14 +454,14 @@ categories:
 </li>
 <li>
 <div>From the Policy statements, select and click on the &#8220;Convert JSON to XML&#8221; statement.</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase55.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase55.png" alt="" /></li>
 <li>
 <div>A &#8220;json-to-xml&#8221; Tag will be added to the Policy Definition area, which contains the instructions resulting in JSON messages to be converted to XML. Ensure that the tag is configured as mentioned below:</div>
 <ul>
 <li><strong>A)</strong> Put in the value &#8220;content-type-json&#8221; for the attribute &#8220;apply&#8221;</li>
 <li><strong>B) </strong>Put in the following value &#8220;false&#8221; for the attribute &#8220;consider-accept-header&#8221;</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase56.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase56.png" alt="" /></p>
 <p>Textual example:</p>
 <p><span style="font-size: 10pt;font-family: arial;color: blue;background-color: white">&lt;<span style="color: maroon">json-to-xml<span style="color: red"> apply<span style="color: blue">=&#8221;<span style="color: black">content-type-json<span style="color: blue">&#8220;<span style="color: red"> consider-accept-header<span style="color: blue">=&#8221;<span style="color: black">false<span style="color: blue">&#8220;/&gt;</span></span></span></span></span></span></span></span></span></span></p>
 <p>&nbsp;</p>
@@ -490,7 +490,7 @@ categories:
 </ul>
 </li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase57.png" alt="" /><br />
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase57.png" alt="" /><br />
 textual example:</p>
 <blockquote><p><span style="font-size: 10pt;font-family: arial;color: blue;background-color: white">&lt;<span style="color: maroon">set-header<span style="color: red"> name<span style="color: blue">=&#8221;<span style="color: black">MessageId<span style="color: blue">&#8220;<span style="color: red"> exists-action<span style="color: blue">=&#8221;<span style="color: black">skip<span style="color: blue">&#8220;&gt;</span></span></span></span></span></span></span></span></span></span></p>
 <p>&nbsp;</p></blockquote>
@@ -508,7 +508,7 @@ textual example:</p>
 <li>
 <div>Once you have added all the policy statements, press the save button</div>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase58.png" alt="" /></li>
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase58.png" alt="" /></li>
 </ol>
 <h3><a name="#Create_a_Group,_an_User_and_Add_subscribe_the_user_to_a_product">Create a Group, an User and Add subscribe the user to a product</a></h3>
 <p>Now we have created a new product and assigned policies we need to perform some group/user related actions. This way we can set up a dedicated Group of users which is allowed to use our Product and it&#8217;s containing API.</p>
@@ -516,10 +516,10 @@ textual example:</p>
 <ol>
 <li>
 <div>Now select the Visibility tab, and click on the MANAGE GROUPS link</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase59.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase59.png" alt="" /></li>
 <li>
 <div>You will be redirected to the GROUPS page, on this page click on the ADD GROUP Link</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase60.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase60.png" alt="" /></li>
 <li>
 <div>A new windows will pop up, fill out the following fields</div>
 <ul>
@@ -527,10 +527,10 @@ textual example:</p>
 <li><strong>B) </strong>Description: General description of the group and its purpose</li>
 <li><strong>C) </strong>Click on Save</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase61.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase61.png" alt="" /></li>
 <li>
 <div>After you&#8217;ve created the new Group, select the developers menu item and in the main window click on ADD User</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase62.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase62.png" alt="" /></li>
 <li>
 <div>Once again a new window will pop up. In this window fill out the following fields:</div>
 <ul>
@@ -540,7 +540,7 @@ textual example:</p>
 <li><strong>D) </strong>Press Save</li>
 </ul>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase63.png" alt="" /></li>
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase63.png" alt="" /></li>
 <li>
 <div>Now that we have created a new user, we need to make it a member of our group. In order to do so follow the following steps</div>
 </li>
@@ -549,10 +549,10 @@ textual example:</p>
 <li><strong>A) </strong>Ensure to select the new user</li>
 <li><strong>B) </strong>Click on the ADD TO GROUP item and add the user to the earlier created Group</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase64.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase64.png" alt="" /></li>
 <li>
 <div>Now go back to the PRODUCTS menu item and select the product you created earlier</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase65.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase65.png" alt="" /></li>
 <li>
 <div>In the main window follow these steps</div>
 <ul>
@@ -560,19 +560,19 @@ textual example:</p>
 <li><strong>B) </strong>Allow the new group to subscribe to your product</li>
 <li><strong>C)</strong> Click Save</li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase66.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase66.png" alt="" /></li>
 <li>
 <div>Now Click on the summary tab and click on the PUBLISH link</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase67.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase67.png" alt="" /></li>
 <li>
 <div>Now select the Developers menu item and click on the user you created earlier</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase68.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase68.png" alt="" /></li>
 <li>
 <div>The main window will now change, in this window click on ADD Subscription</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase69.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase69.png" alt="" /></li>
 <li>
 <div>A window will pop up, in this window ensure to put a checkmark in front of the product you want the user to subscribe to. Once done press the subscribe button</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase70.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase70.png" alt="" /></li>
 </ol>
 <h3><a name="#Test_your_API">Test your API</a></h3>
 <p>At this point you have set up your API and now you can proceed with testing it. In order to test we will use the Azure API Management Developer Portal and we will log-on to it using the user account we set up previously.</p>
@@ -583,17 +583,17 @@ textual example:</p>
 </li>
 <li>
 <div>Now login using the email and password of the user you defined earlier</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase71.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase71.png" alt="" /></p>
 <p>&nbsp;</li>
 <li>
 <div>In the top menu, select APIS</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase72.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase72.png" alt="" /></li>
 <li>
 <div>Click on the API you created earlier</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase73.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase73.png" alt="" /></li>
 <li>
 <div>Click on the button &#8220;Open Console&#8221;</div>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase74.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase74.png" alt="" /></li>
 <li>
 <div>A form will appear which allows you to send a message to the API. Follow the steps below to send a JSON formatted message to the API.</div>
 <ul>
@@ -611,15 +611,15 @@ textual example:</p>
 <li>D) Press HTTP POST</li>
 </ul>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase75.png" alt="" /></li>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase75.png" alt="" /></li>
 <li>
 <div>Now open up the Service Bus Explorer and connect to your service bus instance</div>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase76.png" alt="" /></li>
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase76.png" alt="" /></li>
 <li>
 <div>Right Click on the Archive subscription and select the option &#8220;Receive all messages&#8221;</div>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase77.png" alt="" /></li>
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase77.png" alt="" /></li>
 <li>
 <div>One message should be received, which should meet the following test criteria:</div>
 <ul>
@@ -633,7 +633,7 @@ textual example:</p>
 </ul>
 </li>
 </ul>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase78.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase78.png" alt="" /></p>
 <blockquote><p><strong>MY TEST RESULT: PASSED</strong></p>
 <p>&nbsp;</p></blockquote>
 </li>
@@ -650,7 +650,7 @@ textual example:</p>
 <li><strong>D) </strong>Press HTTP POST</li>
 </ul>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase79.png" alt="" /></li>
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase79.png" alt="" /></li>
 <li>Right Click on the BusinessActivityMonitoring subscription and select the option &#8220;Receive all messages&#8221;. One message should be received, which should meet the following test criteria:
 <ul>
 <li>The message should be formatted in XML</li>
@@ -663,14 +663,14 @@ textual example:</p>
 </li>
 </ul>
 </li>
-<li><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase80.png" alt="" /><br />
+<li><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase80.png" alt="" /><br />
 <blockquote><p><strong>MY TEST RESULT: PASSED</strong></p>
 <p>&nbsp;</p></blockquote>
 </li>
 <li>
 <div>Now let&#8217;s receive all message from our Archive subscription (it should contain a copy of the previous message). Reason for this, is the fact that the archive subscription is our Catch-All subscription and thus all messages send to the topic end up in this subscription as well.</div>
 <p>&nbsp;</p>
-<p><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase81.png" alt="" /></p>
+<p><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2014/05/052914_1715_Exposingase81.png" alt="" /></p>
 <blockquote><p><strong>MY TEST RESULT: PASSED</strong></p>
 <p>&nbsp;</p></blockquote>
 <p style="margin-left: 18pt">

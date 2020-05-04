@@ -58,19 +58,19 @@ So Start up Visual Studio 2010 and create a new ‘Class Library’ Project and 
 
 &nbsp;
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image_thumb.png" width="244" height="169" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image_thumb.png" width="244" height="169" border="0" /></a>
 
 &nbsp;
 
 Include the following reference to this project: <strong><em>System.Management.</em></strong>
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image1.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image_thumb1.png" width="244" height="166" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image1.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image_thumb1.png" width="244" height="166" border="0" /></a>
 
 &nbsp;
 
 Add a new ‘Class item’ and name it: <strong><em>WmiMonitor.cs </em></strong>
 <blockquote>This class will hold all functionality with regards to our WMI Functionality</blockquote>
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image2.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image_thumb2.png" width="244" height="170" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image2.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image_thumb2.png" width="244" height="170" border="0" /></a>
 
 &nbsp;
 
@@ -80,7 +80,7 @@ Add a new ‘Class item’ and name it: <strong><em>EventLogManager.cs</em></str
 <blockquote>This class will contain functionality used for writing any exceptions which might occur to the windows Eventlog</blockquote>
 At this point your solution should look as follows:
 
-<a href="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image3.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="http://blogbrauwers.azurewebsites.net/wp-content/uploads/2011/07/image_thumb3.png" width="211" height="244" border="0" /></a>
+<a href="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image3.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" alt="image" src="https://brauwersnl.blob.core.windows.net/images/uploads/2011/07/image_thumb3.png" width="211" height="244" border="0" /></a>
 
 &nbsp;
 <h3></h3>

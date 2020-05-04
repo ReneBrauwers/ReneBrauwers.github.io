@@ -22,7 +22,7 @@ categories:
 ---
 &nbsp;
 
-In my <a href="http://blog.brauwers.nl/2012/01/17/how-to-microsoft-crm-2011-integration-example-part-2-get-data-out-of-crm-2011/">previous post</a>  I promised that my next blog post would be a follow up on the CRM2011 integration example.
+In my <a href="https://blog.brauwers.nl/2012-01-17-how-to-microsoft-crm-2011-integration-example-part-2-get-data-out-of-crm-2011/">previous post</a>  I promised that my next blog post would be a follow up on the CRM2011 integration example.
 <blockquote>Covering a rewrite of the CRM Workflow Component such that it incorporates functionality which uses the Windows Azure Service Bus Relay Services to send over the CRM data to BizTalk.</blockquote>
 Well something kind of, came in between.. But no worries, I am still working on putting it all down in a blogpost and I hope to publish it pretty soon.
 

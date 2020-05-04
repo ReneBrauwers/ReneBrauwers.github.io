@@ -148,7 +148,7 @@ tested.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":5478} -->
-<figure class="wp-block-image"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2019/02/hl-overview-ise.png" alt="" class="wp-image-5478"/></figure>
+<figure class="wp-block-image"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2019/02/hl-overview-ise.png" alt="" class="wp-image-5478"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -386,11 +386,11 @@ Please note; the IP used ;-) </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":5480} -->
-<figure class="wp-block-image"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2019/02/rest-api-designerview-1.png" alt="" class="wp-image-5480"/><figcaption>Designer view</figcaption></figure>
+<figure class="wp-block-image"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2019/02/rest-api-designerview-1.png" alt="" class="wp-image-5480"/><figcaption>Designer view</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":5491,"width":572} -->
-<figure class="wp-block-image is-resized"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2019/02/rest-api-executedrun-view-1.png" alt="" class="wp-image-5491" width="572"/><figcaption>Execution run view</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2019/02/rest-api-executedrun-view-1.png" alt="" class="wp-image-5491" width="572"/><figcaption>Execution run view</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -410,11 +410,11 @@ IP used  ;-)  for the FTP API connection</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":5482,"width":572} -->
-<figure class="wp-block-image is-resized"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2019/02/ftp-designerview.png" alt="" class="wp-image-5482" width="572"/></figure>
+<figure class="wp-block-image is-resized"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2019/02/ftp-designerview.png" alt="" class="wp-image-5482" width="572"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":5485,"width":572} -->
-<figure class="wp-block-image is-resized"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2019/02/image.png" alt="" class="wp-image-5485" width="572"/><figcaption>FTP Connection view</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2019/02/image.png" alt="" class="wp-image-5485" width="572"/><figcaption>FTP Connection view</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -422,7 +422,7 @@ IP used  ;-)  for the FTP API connection</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":5484,"width":572} -->
-<figure class="wp-block-image is-resized"><img src="https://blogbrauwersimages.blob.core.windows.net/images/uploads/2019/02/ftp-executedrun-view.png" alt="" class="wp-image-5484" width="572"/><figcaption>Execution run view</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="https://brauwersnl.blob.core.windows.net/images/uploads/2019/02/ftp-executedrun-view.png" alt="" class="wp-image-5484" width="572"/><figcaption>Execution run view</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading -->
