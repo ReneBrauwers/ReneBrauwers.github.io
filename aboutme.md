@@ -3,16 +3,8 @@ layout: page
 title: About me
 ---
 
-Rene is a professional with a strong focus on the Microsoft Integration Stack, including products and services such a; BizTalk Server 2016 - 2020,
-Azure Integration Services (Logic Apps, Service Bus, Event Grid, API Management, Azure Functions, Azure Data Factory,  IOT Hub and more.
+Rene has been consulting, both in-house as externally, for almost 20 years. He is a former Microsoft Azure MVP who "eats, sleeps and breathes" intelligent automation and integration and has  worked across a multitude of industries including retail, transport, oil & gas , finance, education, healthcare and government.
 
-### brief professional history
-I started my IT career as a web developer/designer and designing and creating websites using classic ASP. Soon, my focus got more 
-drawn towards developing client/server applications using a 3GL language called Centura/Gupta Team Developer.
+Over the last few years Rene has naturally transitioned more into different leadership roles, from being a solution architect and principal consultant to his current role at [Servian[(https://www.servian.com)]] in Sydney, Australia as Managing consultant.
 
-Around the end of 2002, I got involved in the integration space, starting off with WebMethods and did this for the next three years with an occasional 
-side step to .NET development. This occasional side step got him in touch with BizTalk Server in 2005 and, since then, he has been involved with most of 
-the integration offerings Microsoft offers both in the Cloud (Microsoft Azure) as on premise.
-
-Currently he is employed as a Principal Consultant at [Insight[(https://www.insight.com) in Sydney, Australia.
-
+But no matter what René still has a sharp interest on all things integration, automation and low/no-code related, and as such loves to keep on learning new things by means of being hands-on whenever he can and sharing his knowledge with everyone who is interested.
